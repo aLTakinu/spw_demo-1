@@ -11,7 +11,7 @@ namespace FibonacciSeries {
       }
       Console.Out.WriteLine();
     }
-
+	// aLTakinu added some comment to Milenas code
     static int CreateFibonacciNumber(int index) {
       if (index == 0) return 0;
       if (index == 1) return 1;
