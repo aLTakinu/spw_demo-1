@@ -7,7 +7,7 @@ namespace FibonacciSeries {
 
       for (int i = 0; i < fibonacci.Length; i++) {
         Console.Out.Write(fibonacci[i]);
-        Console.Out.Write(" ");
+        Console.Out.Write(", ");	// separate with comma
       }
       Console.Out.WriteLine();
     }
